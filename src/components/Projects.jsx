@@ -18,10 +18,10 @@ const Projects = () => {
       <div className='grid sm:grid-cols-3 gap-12' >  
         <ProjectItem img={eshop} title='E-Commerce React App' tech='React JS Fullstack Hosted on Github' link='https://kevintapol.github.io/React-E-Commerce-App/' g_link='https://github.com/KevinTapol/React-E-Commerce-App' />
         <ProjectItem img={nasa} title='Nasa Pic of the Day' tech='Frontend API Hosted on Github' link='https://kevintapol.github.io/NasaApi/index.html' g_link='https://github.com/KevinTapol/NasaApi'/>
-        <ProjectItem img={group} title='Full Stack Group Project' tech='EJS Hosted on Render.com' link='https://shoppinit.onrender.com/' g_link='https://github.com/KevinTapol/GroupProjectShoppingList'/>
-        <ProjectItem img={hrbox} title='HR Feedback' tech='EJS Hosted on Render.com' link='https://hr-box.onrender.com/' g_link='https://github.com/KevinTapol/HR-Box'/>
-        <ProjectItem img={motorpool} title='Vehicle Repair Orders' tech='MERN stack hosted on Cyclic'link='https://motorpool.cyclic.app/' g_link='https://github.com/KevinTapol/MotorPool'/>
-        <ProjectItem img={codewars} title='Daily Codewars!' tech='React JS' link='https://www.codewars.com/users/KevinTap' g_link='https://github.com/KevinTapol/codewars-js'/>
+        <ProjectItem img={motorpool} title='Vehicle Repair Orders' tech='MongoDB Express EJS Node stack hosted on Cyclic'link='https://motorpool.cyclic.app/' g_link='https://github.com/KevinTapol/MotorPool'/>
+        <ProjectItem img={group} title='Full Stack Group Project' tech='MongoDB Express EJS Node stack Hosted on Render.com' link='https://shoppinit.onrender.com/' g_link='https://github.com/KevinTapol/GroupProjectShoppingList'/>
+        <ProjectItem img={hrbox} title='HR Feedback' tech='MongoDB Express EJS Node stack Hosted on Render.com' link='https://hr-box.onrender.com/' g_link='https://github.com/KevinTapol/HR-Box'/>
+        <ProjectItem img={codewars} title='Daily Codewars!' tech='JavaScript Python C#' link='https://www.codewars.com/users/KevinTap' g_link='https://github.com/KevinTapol/codewars-js'/>
       </div>
     </div>
   )
