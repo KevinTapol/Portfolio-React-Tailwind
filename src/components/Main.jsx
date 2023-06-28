@@ -8,7 +8,7 @@ const Main = () => {
         <img className='w-full h-screen object-cover object-left scale-x' src="../src/assets/imgs/salute.jpg" alt="" />
         {/* to flip the image replace the class scale-x with scale-x-[-1] */}
         <div className='w-full h-screen absolute top-0 left-0 bg-white/80' >
-            <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center' >
+            <div id='main_text' className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center' >
 
             
             <h1 className='sm:text-5xl text-4xl font-bold text-gray-800' >Kevin Tapolcsanyi</h1>

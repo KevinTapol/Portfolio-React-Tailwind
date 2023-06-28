@@ -4,4 +4,44 @@
 
 * {
     scroll-behavior: smooth;
+    --main-load: 500ms;
+}
+
+#main_text {
+    animation: main-load;
+    animation-duration: var(--main-load);
+    animation-timing-function: ease-in;
+    animation-delay: var(--main-load);
+    animation-fill-mode: forwards; /*set final look to final key frame */
+    transform: scale(0); /*set initial look before animation*/
+}
+
+@keyframes main-load {
+    0% {
+        transform: scale(0);
+    }
+    90% {
+        transform: scale(1.1); /*increasing the scale gives it a bounce effect*/
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+
+#blurb, #projects {
+    animation: blurb-load 700ms ease-in;
+    animation-delay: inherit;
+    animation-fill-mode: forwards; /*set final look to final key frame */
+    transform: scale(0); /*set initial look before animation*/
+}
+
+@keyframes blurb-load {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
