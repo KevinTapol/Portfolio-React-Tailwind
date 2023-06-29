@@ -35,6 +35,8 @@
     transform: scale(0); /*set initial look before animation*/
 }
 
+
+/* intersection observers for mouse scroll on viewport */
 @keyframes blurb-load {
     0% {
         transform: translateY(100%);
