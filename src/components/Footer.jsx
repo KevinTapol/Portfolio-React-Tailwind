@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='flex flex-col justify-center items-center'>
         <Links />
         {/* <h3>&copy;</h3> */}
-        <h3 className='m-auto pt-2 text-xl' > 2023 Kevin Tapolcsanyi</h3>
+        <h3 className='m-auto pt-2 text-xl' > &copy; 2023 Kevin Tapolcsanyi</h3>
     </div>
   )
 }
