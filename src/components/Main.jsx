@@ -4,7 +4,7 @@ import Links from './Links'
 
 const Main = () => {
   return (
-    <div id='main' >
+    <div id='main' className='mb-1' >
         <img className='w-full h-screen object-cover object-left scale-x' src="../src/assets/imgs/salute.jpg" alt="" />
         {/* to flip the image replace the class scale-x with scale-x-[-1] */}
         <div className='w-full h-screen absolute top-0 left-0 bg-white/80' >

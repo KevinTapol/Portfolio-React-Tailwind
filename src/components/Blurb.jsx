@@ -14,6 +14,8 @@ const Blurb = () => {
       setMyElementIsVisible(entry.isIntersecting)
       //console.log('entry', entry)
       
+    },{
+      threshold: 0
     })
     observer.observe(myRef.current)
   }, [])
