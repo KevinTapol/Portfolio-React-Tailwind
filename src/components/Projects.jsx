@@ -15,7 +15,7 @@ const Projects = () => {
       <p className='text-center py-8' >
       Mouse over each Web App for a description, a direct link to the website, and a direct link to the GitHub repository. If you are on mobile, click the top of the images to display descriptions and links.
       </p>
-      <div className='grid sm:grid-cols-3 gap-12' >  
+      <div className='grid md:grid-cols-3 gap-12' >  
         <ProjectItem img={eshop} title='Office Supply Store' tech='React JSON E-Commerce Shop Hosted on Github' link='https://kevintapol.github.io/React-E-Commerce-App/' g_link='https://github.com/KevinTapol/React-E-Commerce-App' />
         <ProjectItem img={nasa} title='Nasa Pic of the Day' tech='Fetch Historical NASA API Picture of the Day Hosted on Github' link='https://kevintapol.github.io/NasaApi/index.html' g_link='https://github.com/KevinTapol/NasaApi'/>
         <ProjectItem img={motorpool} title='Vehicle Repair Shop' tech='MongoDB Express EJS Node Full Stack CRUD App Vehicle Repair Work Orders Hosted on Cyclic'link='https://motorpool.cyclic.app/' g_link='https://github.com/KevinTapol/MotorPool'/>

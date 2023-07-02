@@ -28,16 +28,17 @@
     }
 }
 
-#blurb, #projects {
-    animation: blurb-load 700ms ease-in;
+/* add this class to fade in load sections */
+.fadeLoad {
+    animation: fade-load 700ms ease-in;
     animation-delay: inherit;
-    animation-fill-mode: forwards; /*set final look to final key frame */
+    animation-fill-mode: forwards;  /* set final look to final key frame */
     transform: scale(0); /*set initial look before animation*/
 }
 
 
 /* intersection observers for mouse scroll on viewport */
-@keyframes blurb-load {
+@keyframes fade-load {
     0% {
         transform: translateY(100%);
         opacity: 0;
