@@ -41,3 +41,7 @@ add Contact Functionality
 -uncomment out Contact component in App.jsx and icons in Sidenav.jsx
 add Work/Skill History
 -uncomment out Work component in App.jsx and work icons in Sidenav.jsx
+
+## Intersection Observer vid on useInView() react hook one liner by Colby Fayock
+<!-- https://www.youtube.com/watch?v=r1auJEf9ISo&t=618s&ab_channel=ColbyFayock -->
+npm install react-intersection-observer --save

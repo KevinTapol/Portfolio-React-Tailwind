@@ -1,4 +1,6 @@
-import { useState, useRef, useEffect } from 'react'
+// useState, useRef, and useEffect is not needed for useInView
+// import { useState, useRef, useEffect } from 'react'
+import { useInView } from 'react-intersection-observer'
 import React from 'react'
 import ProjectItem from './ProjectItem'
 import eshop from '../assets/imgs/eshop.gif'
@@ -10,24 +12,26 @@ import codewars from '../assets/imgs/Codewars.gif'
 
 
 const Projects = () => {
+  // one liner useInView() hook vs below commented code
+  const { ref:myRef, inView: myElementIsVisible } = useInView();
 
-  const myRef = useRef();
-  const [myElementIsVisible, setMyElementIsVisible] = useState();
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries)=> {
-      const entry = entries[0];
-      setMyElementIsVisible(entry.isIntersecting)
-    },{
-      threshold: 0,
-      // rootMargin: '850px'
-      // root: 
-    })
-    observer.observe(myRef.current)
-  }, [])
+  // const myRef = useRef();
+  // const [myElementIsVisible, setMyElementIsVisible] = useState();
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver((entries)=> {
+  //     const entry = entries[0];
+  //     setMyElementIsVisible(entry.isIntersecting)
+  //   },{
+  //     threshold: 0,
+  //     // rootMargin: '850px'
+  //     // root: 
+  //   })
+  //   observer.observe(myRef.current)
+  // }, [])
 
   return (
-    // <div ref={myRef} id='projects' className={`${myElementIsVisible ? 'max-w-[1040px] m-auto md:pl-20 p-4 py-16 fadeLoad' : 'max-w-[1040px] m-auto md:pl-20 p-4 py-16 opacity-0'}`} >
-    <div ref={myRef} id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16' >
+    <div ref={myRef} id='projects' className={`${myElementIsVisible ? 'max-w-[1040px] m-auto md:pl-20 p-4 py-16 fadeLoad' : 'max-w-[1040px] m-auto md:pl-20 p-4 py-16 opacity-0'}`} >
+    {/* <div ref={myRef} id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16' > */}
       <h1 className='text-4xl font-bold text-center text-[#001b5e]' >Websites</h1>
       <p className='text-center py-8' >
       Mouse over each Web App for a description, a direct link to the website, and a direct link to the GitHub repository. If you are on mobile, click the top of the images to display descriptions and links.
