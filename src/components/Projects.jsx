@@ -30,8 +30,8 @@ const Projects = () => {
   // }, [])
 
   return (
-    <div ref={myRef} id='projects' className={`${myElementIsVisible ? 'max-w-[1040px] m-auto md:pl-20 p-4 py-16 fadeLoad' : 'max-w-[1040px] m-auto md:pl-20 p-4 py-16 opacity-0'}`} >
-    {/* <div ref={myRef} id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16' > */}
+    // <div ref={myRef} id='projects' className={`${myElementIsVisible ? 'max-w-[1040px] m-auto md:pl-20 p-4 py-16 fadeLoad' : 'max-w-[1040px] m-auto md:pl-20 p-4 py-16 opacity-0'}`} >
+    <div ref={myRef} id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16' >
       <h1 className='text-4xl font-bold text-center text-[#001b5e]' >Websites</h1>
       <p className='text-center py-8' >
       Mouse over each Web App for a description, a direct link to the website, and a direct link to the GitHub repository. If you are on mobile, click the top of the images to display descriptions and links.
