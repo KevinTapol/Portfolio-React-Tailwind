@@ -1,47 +1,60 @@
 # React Vite Tailwind Portfolio
-<!-- https://www.youtube.com/watch?v=22CxRxryQFE&t=1733s&ab_channel=CodeCommerce -->
-<!-- 1:04:08  -->
-npm create vite@latest .
-cd into folder if needed
+![Relative](/src/assets/imgs/portfolio.gif)
+[Click here for the Code Commerce Youtube link to the original React and Tailwind Portfolio Guide](https://www.youtube.com/watch?v=22CxRxryQFE&t=1733s&ab_channel=CodeCommerce)
+
+[Click here for the Colby Fayock Youtube link to the useInView() hook for the Intersection Observer](https://www.youtube.com/watch?v=r1auJEf9ISo&t=618s&ab_channel=ColbyFayock)
+
+[Click here for Tailwind Vite Docs](https://tailwindcss.com/docs/guides/vite)
+
+[Click here for the React Animations Doc](https://www.npmjs.com/package/react-type-animation)
+
+## To get the project running from Cloning down the repo follow these steps:
+npm i  
+npm i react-icons --save  
+npm install -D tailwindcss postcss autoprefixer  
+npx tailwindcss init -p  
+npm install --save react-type-animation  
+npm install react-intersection-observer --save
+---
+### To make your own project from scratch follow these steps:
+npm create vite@latest .  
+cd into folder if needed  
 npm i
 
-npm i react-icons --save
-this allows the use of react icons as seen in dependencies
+***Type the following to allow the use of react icons***  
+npm i react-icons --save  
 
-https://tailwindcss.com/docs/guides/vite
-install tailwind for vite
+***Type the following command to install tailwind for vite***   
 npm install -D tailwindcss postcss autoprefixer
 
-initialize tailwind and creates tailwind.config.js file
+***Type the following to initialize tailwind and create a tailwind.config.js file***  
 npx tailwindcss init -p
 
-copy paste the following in tailwind.config.js
+***Copy paste the following in tailwind.config.js***  
 content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ]
 
-replace all of index.css with the following 3 lines
-@tailwind base;
-@tailwind components;
+***Replace all of index.css with the following 3 lines***  
+@tailwind base;  
+@tailwind components;  
 @tailwind utilities;
 
-delete boilerplate
-App.css
-gut App.jsx
+***Delete the boiler plate App.jsx***  
+***Delete the App.css file including the imports into other files***
 
-adding brackets in tailwind allows us to create custom points ex z-[99] vs z-20
-
-https://www.npmjs.com/package/react-type-animation
+***Type the following to install react animations***  
 npm install --save react-type-animation
 
+***Type the following to install the useInView() react hook for  Intersection Observer***
+npm install react-intersection-observer --save
+
+***Side Note: adding brackets in tailwind allows us to create custom points***  
+Code Commerce uses a custom color blue of **text-[#001b5e]**
 
 ### TODO 
-add Contact Functionality
--uncomment out Contact component in App.jsx and icons in Sidenav.jsx
-add Work/Skill History
--uncomment out Work component in App.jsx and work icons in Sidenav.jsx
-
-## Intersection Observer vid on useInView() react hook one liner by Colby Fayock
-<!-- https://www.youtube.com/watch?v=r1auJEf9ISo&t=618s&ab_channel=ColbyFayock -->
-npm install react-intersection-observer --save
+* add Contact Functionality
+* add Work/Skill History  
+* uncomment out Contact component in App.jsx and icons in Sidenav.jsx  
+* uncomment out Work component in App.jsx and work icons in Sidenav.jsx
