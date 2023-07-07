@@ -1,14 +1,16 @@
 # React Vite Tailwind Portfolio
 <!-- ![Relative](/src/assets/imgs/portfolio.gif) -->
 <img src="./src/assets/imgs/Portfolio.gif" width="100%" alt="#"/>
-  
-[Click here for the Code Commerce Youtube link to the original React and Tailwind Portfolio Guide](https://www.youtube.com/watch?v=22CxRxryQFE&t=1733s&ab_channel=CodeCommerce)
 
-[Click here for the Colby Fayock Youtube link to the useInView() hook for the Intersection Observer](https://www.youtube.com/watch?v=r1auJEf9ISo&t=618s&ab_channel=ColbyFayock)
+[Click here for Code Commerce's **Portfolio Guide** using React and Tailwind ](https://www.youtube.com/watch?v=22CxRxryQFE&t=1733s&ab_channel=CodeCommerce)
 
-[Click here for Tailwind Vite Docs](https://tailwindcss.com/docs/guides/vite)
+[Click here for Colby Fayock's **Intersection Observer** useInView() hook tutorial](https://www.youtube.com/watch?v=r1auJEf9ISo&t=618s&ab_channel=ColbyFayock)
 
-[Click here for the React Animations Doc](https://www.npmjs.com/package/react-type-animation)
+[Click here for WebDevSimplified's tutorial on **Markdown**](https://www.youtube.com/watch?v=_PPWWRV6gbA&t=645s&ab_channel=WebDevSimplified)
+
+[Click here for **Tailwind Vite Docs**](https://tailwindcss.com/docs/guides/vite)
+
+[Click here for the **React Animations Docs**](https://www.npmjs.com/package/react-type-animation)
 
 ## To get the project running from Cloning down the repo follow these steps:
 npm i  
@@ -18,7 +20,7 @@ npx tailwindcss init -p
 npm install --save react-type-animation  
 npm install react-intersection-observer --save
 ---
-### To make your own project from scratch follow these steps:
+### To make your own project from scratch follow these steps seen in Code Commerce's tutorial:
 npm create vite@latest .  
 cd into folder if needed  
 npm i
@@ -56,7 +58,7 @@ npm install react-intersection-observer --save
 Code Commerce uses a custom color blue of **text-[#001b5e]**
 
 ### TODO 
+* fix 400-800px media queries
+* run a build and host it on netlify or github gh-pages
 * add Contact Functionality
-* add Work/Skill History  
-* uncomment out Contact component in App.jsx and icons in Sidenav.jsx  
-* uncomment out Work component in App.jsx and work icons in Sidenav.jsx
+* add Work/Skill History
