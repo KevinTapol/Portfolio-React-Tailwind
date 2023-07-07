@@ -1,5 +1,7 @@
 # React Vite Tailwind Portfolio
-![Relative](/src/assets/imgs/portfolio.gif)
+<!-- ![Relative](/src/assets/imgs/portfolio.gif) -->
+<img src="./src/assets/imgs/Portfolio.gif" width="100%" alt="#"/>
+  
 [Click here for the Code Commerce Youtube link to the original React and Tailwind Portfolio Guide](https://www.youtube.com/watch?v=22CxRxryQFE&t=1733s&ab_channel=CodeCommerce)
 
 [Click here for the Colby Fayock Youtube link to the useInView() hook for the Intersection Observer](https://www.youtube.com/watch?v=r1auJEf9ISo&t=618s&ab_channel=ColbyFayock)
