@@ -2,6 +2,8 @@
 <!-- ![Relative](/src/assets/imgs/portfolio.gif) -->
 <img src="./src/assets/imgs/Portfolio.gif" width="100%" alt="#"/>
 
+<a target="_blank" href="https://www.youtube.com/watch?v=22CxRxryQFE&t=1733s&ab_channel=CodeCommerce" >Click here for Code Commerce's **Portfolio Guide** using React and Tailwind</a>
+
 [Click here for Code Commerce's **Portfolio Guide** using React and Tailwind ](https://www.youtube.com/watch?v=22CxRxryQFE&t=1733s&ab_channel=CodeCommerce)
 
 [Click here for Colby Fayock's **Intersection Observer** useInView() hook tutorial](https://www.youtube.com/watch?v=r1auJEf9ISo&t=618s&ab_channel=ColbyFayock)
@@ -12,21 +14,19 @@
 
 [Click here for the **React Animations Docs**](https://www.npmjs.com/package/react-type-animation)
 
-## To get the project running from Cloning down the repo follow these steps:
-npm i  
-npm i react-icons --save  
+## To get the project running from Cloning down the repo type the following lines in the terminal:
+npm i react-icons react-type-animation react-intersection-observer   
 npm install -D tailwindcss postcss autoprefixer  
-npx tailwindcss init -p  
-npm install --save react-type-animation  
-npm install react-intersection-observer --save
+npx tailwindcss init -p 
+
 ---
 ### To make your own project from scratch follow these steps seen in Code Commerce's tutorial:
 npm create vite@latest .  
 cd into folder if needed  
-npm i
+npm install
 
 ***Type the following to allow the use of react icons***  
-npm i react-icons --save  
+npm install react-icons --save  
 
 ***Type the following command to install tailwind for vite***   
 npm install -D tailwindcss postcss autoprefixer
@@ -49,7 +49,7 @@ content: [
 ***Delete the App.css file including the imports into other files***
 
 ***Type the following to install react animations***  
-npm install --save react-type-animation
+npm install react-type-animation --save
 
 ***Type the following to install the useInView() react hook for  Intersection Observer***
 npm install react-intersection-observer --save
