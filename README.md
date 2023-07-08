@@ -14,8 +14,8 @@
 
 <a target="_blank" href="https://www.npmjs.com/package/react-type-animation">Click here for the **React Animations Docs**</a>
 
-## To get the project running Clone down the repo and type the following lines in the terminal:
-npm i react-icons react-type-animation react-intersection-observer   
+## To get the project running, Clone down the repo and type the following lines in the terminal:
+npm install react-icons react-type-animation react-intersection-observer   
 npm install -D tailwindcss postcss autoprefixer  
 npx tailwindcss init -p 
 
@@ -58,8 +58,10 @@ npm install react-intersection-observer --save
 Code Commerce uses a custom color blue of **text-[#001b5e]**
 
 ### TODO 
-- [ ] Unchecked
-- [x] Checked
+<!-- **- [x] Checked** -->
+<!-- * <mark>~~crossed out~~</mark> -->
+<!-- - [ ] Unchecked  
+- [x] Checked -->
 * fix 400-800px media queries
 * run a build and host it on netlify or github gh-pages
 * add Contact Functionality
