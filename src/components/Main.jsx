@@ -8,9 +8,9 @@ const Main = () => {
   return (
     <div ref={myRef} id='main' className='mb-1' >
         {/* <img className='w-full h-screen object-cover object-left scale-x' src="../src/assets/imgs/salute.jpg" alt="" /> */}
-        <img className='w-full h-screen object-left scale-x' src="../src/assets/imgs/salute.jpg" alt="" />
+        <img className='w-full h-screen object-fill object-left scale-x' src="../src/assets/imgs/matrix.jpg" alt="" />
         {/* to flip the image replace the class scale-x with scale-x-[-1] */}
-        <div className='w-full h-screen absolute top-0 left-0 bg-white/80' >
+        <div className='w-full h-screen absolute top-0 left-0 bg-white/40' >
             {/* <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center main_text' > */}
             <div  className={`${myElementIsVisible ? 'max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center main_text' : 'max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center opacity-0' }`} >
 

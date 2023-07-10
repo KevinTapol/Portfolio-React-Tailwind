@@ -8,6 +8,8 @@
 
 <a target="_blank" href="https://www.youtube.com/watch?v=r1auJEf9ISo&t=618s&ab_channel=ColbyFayock">Click here for Colby Fayock's **Intersection Observer** useInView() hook tutorial</a>
 
+<a target="_blank" href="https://www.youtube.com/watch?v=nJ81DFmgHdU&ab_channel=WebDevSimplified">Click here for WebDevSimplified's tutorial on **CSS Key Frame Animations**</a>
+
 <a target="_blank" href="https://www.youtube.com/watch?v=_PPWWRV6gbA&t=645s&ab_channel=WebDevSimplified">Click here for WebDevSimplified's tutorial on **Markdown**</a>
 
 <a target="_blank" href="https://tailwindcss.com/docs/guides/vite">Click here for **Tailwind Vite Docs**</a>
@@ -71,7 +73,7 @@ Code Commerce uses a custom color blue of **text-[#001b5e]**
 <!-- * <mark>~~crossed out~~</mark> -->
 <!-- - [ ] Unchecked  
 - [x] Checked -->
-* fix 400-800px media queries
+-[x] fix 400-800px media queries
 * run a build and host it on netlify or github gh-pages
 * add Contact Functionality
 * add Work/Skill History
