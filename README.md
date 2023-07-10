@@ -14,10 +14,19 @@
 
 <a target="_blank" href="https://www.npmjs.com/package/react-type-animation">Click here for the **React Animations Docs**</a>
 
-## To get the project running, Clone down the repo and type the following lines in the terminal:
-npm install react-icons react-type-animation react-intersection-observer   
+## To get the project running Clone down the repo, initialize your repo with git init and type the following lines in the terminal: 
+npm install   
 npm install -D tailwindcss postcss autoprefixer  
 npx tailwindcss init -p 
+
+*npm install will install the following dependencies in package.json* 
+- react-icons 
+- react-type-animation 
+- react-intersection-observer
+
+*-D is used to install the dependencies as developer dependencies*
+
+*npx tailwind init -p initializes tailiwind*
 
 ---
 ## To make your own project from scratch follow these steps seen in Code Commerce's tutorial:
