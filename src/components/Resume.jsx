@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer'
 const Resume = () => {
   const { ref:myRef, inView: myElementIsVisible } = useInView();
   return (
-    <div ref={myRef} id='resume' className={`${myElementIsVisible ? 'max-w-[1040px] m-auto p-4 py-16 bounce' : 'max-w-[1040px] m-auto p-4 py-16 opacity-0'}`}>
+    <div ref={myRef} id='resume' className={`${myElementIsVisible ? 'max-w-[1040px] m-auto p-4 py-16 curveball' : 'max-w-[1040px] m-auto p-4 py-16 opacity-0'}`}>
         <h1 className='text-4xl mb-1 font-bold text-center text-[#001b5e]' >Resume
         </h1>
         <div className='flex' >

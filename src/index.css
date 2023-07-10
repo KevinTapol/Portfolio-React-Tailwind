@@ -50,8 +50,8 @@
 }
 
 /* add this class to fade in load sections */
-.bounce {
-    animation: bounce-load 800ms ease-in;
+.curveball {
+    animation: curveball-load 800ms ease-in;
     animation-timing-function: 700ms;
     animation-delay: inherit;
     animation-fill-mode: forwards;  /* set final look to final key frame */
@@ -60,17 +60,17 @@
 
 
 /* intersection observers for mouse scroll on viewport */
-@keyframes bounce-load {
+@keyframes curveball-load {
     0% {
         transform: translateX(-100%);
         opacity: 0;
         scale: 0;
     } 90%{
-        transform: translateX(10%);
-        scale: 1.2;
+        transform: translateX(0) rotate(1080deg);
+        scale: 0.3;
     }
     100%{
-        transform: translateX(0);
+        transform: translateX(0) rotate(0);
         opacity: 1;
         scale: 1;
     }
