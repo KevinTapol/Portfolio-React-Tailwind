@@ -1,6 +1,6 @@
 # React Vite Tailwind Portfolio
 <!-- ![Relative](/src/assets/imgs/portfolio.gif) -->
-<img src="./src/assets/imgs/FinalPortfolio.gif" width="100%" alt="#"/>
+<img src="./src/assets/imgs/MeierPortfolio.gif" width="100%" alt="#"/>
 
 <!-- [Click here for Code Commerce's **Portfolio Guide** using React and Tailwind ](https://www.youtube.com/watch?v=22CxRxryQFE&t=1733s&ab_channel=CodeCommerce) -->
 
