@@ -16,7 +16,7 @@ const Main = () => {
           <div ref={myRef} className={`${myElementIsVisible ? 'absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 main_text' : 'absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 opacity-0' }`} >
             <h1 className='md:text-4xl text-xl font-bold text-gray-800' >Kevin Tapolcsanyi</h1>
             <h2 className='flex md:text-3xl text-sm pt-2 text-black' >I am a
-              <TypeAnimation  omitDeletionAnimation={false}
+              <TypeAnimation className='text-blue-800' omitDeletionAnimation={false}
                 sequence={[
                   'Software Engineer',
                   2000, 
