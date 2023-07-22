@@ -10,6 +10,7 @@ const Sidenav = () => {
     }
   return (
     <div>
+        {/* mobile screen size */}
         <AiOutlineMenu onClick={handleNav} className='fixed top-4 right-4 z-[99] md:hidden' />
         {
             nav ? (
@@ -44,6 +45,7 @@ const Sidenav = () => {
                 ''
             )
         }
+        {/* full sreen size */}
         <div className='md:block hidden fixed top-[25%] z-10' >
             <div className='flex flex-col' >
                 <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-blue-500 hover:text-white' >

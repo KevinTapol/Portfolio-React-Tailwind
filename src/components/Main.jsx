@@ -10,13 +10,13 @@ import meier from '../assets/imgs/meier.jpg'
 const Main = () => {
   const { ref:myRef, inView: myElementIsVisible } = useInView();
   return (
-    <div ref={myRef} id='main' className='mb-1' >
-        <img className='w-full h-screen object-fill object-left scale-x' src={meier} alt="" />
-        <div className='w-full h-screen absolute top-0 left-0 bg-white/40' >
-          <div  className={`${myElementIsVisible ? 'max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center main_text' : 'max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center opacity-0' }`} >
-            <h1 className='sm:text-5xl text-4xl font-bold text-gray-800' >Kevin Tapolcsanyi</h1>
-            <h2 className='flex sm:text-3xl text-2xl pt-4 text-blue-800' >I am a
-              <TypeAnimation omitDeletionAnimation={false}
+    <div id='main' className='mb-1 relative' >
+        <img className='w-full h-full relative object-contain object-left ' src={meier} alt="" />
+        <div className='w-full h-full absolute top-0 left-0 bg-white/40' >
+          <div ref={myRef} className={`${myElementIsVisible ? 'absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 main_text' : 'absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 opacity-0' }`} >
+            <h1 className='md:text-4xl text-xl font-bold text-gray-800' >Kevin Tapolcsanyi</h1>
+            <h2 className='flex md:text-3xl text-sm pt-2 text-black' >I am a
+              <TypeAnimation  omitDeletionAnimation={false}
                 sequence={[
                   'Software Engineer',
                   2000, 
