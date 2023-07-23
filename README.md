@@ -17,18 +17,16 @@
 <a target="_blank" href="https://www.npmjs.com/package/react-type-animation">Click here for the **React Animations Docs**</a>
 
 ## To get the project running Clone down the repo, initialize your repo with git init and type the following lines in the terminal: 
-npm install   
-npm install -D tailwindcss postcss autoprefixer  
-npx tailwindcss init -p 
+- *to initialize your project type the following in the terminal*  
+git init
+- *to clone down my repo type the following in the terminal*  
+git clone https://github.com/KevinTapol/Portfolio-React-Tailwind.git 
+- *to install all of the necessary dependencies type the following in the terminal*    
+npm i
+- *to get repo running locally type the following in the terminal*  
+npm run dev
+- *now go to the ctrl + left click on localhost link provided in the terminaL*
 
-*npm install will install the following dependencies in package.json* 
-- react-icons 
-- react-type-animation 
-- react-intersection-observer
-
-*-D is used to install the dependencies as developer dependencies*
-
-*npx tailwind init -p initializes tailiwind*
 
 ---
 ## To make your own project from scratch follow these steps seen in Code Commerce's tutorial:
@@ -68,12 +66,14 @@ npm install react-intersection-observer --save
 ***Side Note: adding brackets in tailwind allows us to create custom points***  
 Code Commerce uses a custom color blue of **text-[#001b5e]**
 
+<!--
 ### TODO 
-<!-- **- [x] Checked** -->
-<!-- * <mark>~~crossed out~~</mark> -->
-<!-- - [ ] Unchecked  
-- [x] Checked -->
+**- [x] Checked**
+* <mark>~~crossed out~~</mark>
+- [ ] Unchecked 
+- [x] Checked
 -[x] fix 400-800px media queries
 * run a build and host it on netlify or github gh-pages
 * add Contact Functionality
-* add Work/Skill History
+* add Work/Skill History  
+-->
