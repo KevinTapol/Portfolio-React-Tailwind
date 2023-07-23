@@ -28,7 +28,7 @@ npm run dev
 - ***Now go to the ctrl + left click on localhost link provided in the terminal***
 
 
----
+<!-- ---
 ## To make your own project from scratch follow these steps seen in Code Commerce's and Colby Fayock's tutorials:
 npm create vite@latest .  
 cd into folder if needed  
@@ -64,7 +64,7 @@ npm install react-type-animation --save
 npm install react-intersection-observer --save
 
 ***Side Note: adding brackets in tailwind allows us to create custom points***  
-Code Commerce uses a custom color blue of **text-[#001b5e]**
+Code Commerce uses a custom color blue of **text-[#001b5e]** -->
 
 <!--
 ### TODO 
