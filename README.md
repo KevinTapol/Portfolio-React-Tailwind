@@ -16,16 +16,16 @@
 
 <a target="_blank" href="https://www.npmjs.com/package/react-type-animation">Click here for the **React Animations Docs**</a>
 
-## To get the project running Clone down the repo, initialize your repo with git init and type the following lines in the terminal: 
-- *to initialize your project type the following in the terminal*  
+## Follow these steps to get the project running on your computer!
+- ***To initialize your project type the following in the terminal***  
 git init
-- *to clone down my repo type the following in the terminal*  
+- ***To clone down my repo type the following in the terminal***  
 git clone https://github.com/KevinTapol/Portfolio-React-Tailwind.git 
-- *to install all of the necessary dependencies type the following in the terminal*    
+- ***To install all of the necessary dependencies type the following in the terminal***    
 npm i
-- *to get repo running locally type the following in the terminal*  
+- ***To get repo running locally type the following in the terminal***  
 npm run dev
-- *now go to the ctrl + left click on localhost link provided in the terminaL*
+- ***Now go to the ctrl + left click on localhost link provided in the terminal***
 
 
 ---
