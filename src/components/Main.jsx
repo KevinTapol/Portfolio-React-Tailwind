@@ -10,7 +10,7 @@ import meier from '../assets/imgs/meier.jpg'
 const Main = () => {
   const { ref:myRef, inView: myElementIsVisible } = useInView();
   return (
-    <div id='main' className='mb-1 relative' >
+    <div id='main' className='md:mb-1 mb-0 relative' >
         <img className='w-full h-full relative object-contain object-left ' src={meier} alt="" />
         <div className='w-full h-full absolute top-0 left-0 bg-white/40' >
           <div ref={myRef} className={`${myElementIsVisible ? 'absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 main_text' : 'absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 opacity-0' }`} >
