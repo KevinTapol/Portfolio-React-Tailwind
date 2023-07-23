@@ -29,7 +29,7 @@ npm run dev
 
 
 ---
-## To make your own project from scratch follow these steps seen in Code Commerce's tutorial:
+## To make your own project from scratch follow these steps seen in Code Commerce's and Colby Fayock's tutorials:
 npm create vite@latest .  
 cd into folder if needed  
 npm install
