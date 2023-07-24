@@ -32,10 +32,7 @@ npm run dev
 ## To make your own project from scratch follow these steps seen in Code Commerce's and Colby Fayock's tutorials:
 npm create vite@latest .  
 cd into folder if needed  
-npm install
-
-***Type the following to allow the use of react icons***  
-npm install react-icons --save  
+npm i react-icons react-type-animation react-intersection-observer 
 
 ***Type the following command to install tailwind developer dependencies for vite***   
 npm install -D tailwindcss postcss autoprefixer
@@ -57,11 +54,17 @@ content: [
 ***Delete the boiler plate App.jsx***  
 ***Delete the App.css file including the imports into other files***
 
-***Type the following to install react animations***  
-npm install react-type-animation --save
+
+***The following describes what each additional dependency install does***
+
+***Type the following to allow the use of react icons***  
+npm install react-icons --save 
+
+***Type the following to install react animations with the typing animation shown on main screen***  
+npm install react-type-animation
 
 ***Type the following to install the useInView() react hook for  Intersection Observer***  
-npm install react-intersection-observer --save
+npm install react-intersection-observer
 
 ***Side Note: adding brackets in tailwind allows us to create custom points***  
 Code Commerce uses a custom color blue of **text-[#001b5e]** -->
