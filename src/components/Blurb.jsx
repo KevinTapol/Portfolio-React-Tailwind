@@ -20,7 +20,7 @@ const Blurb = () => {
   return (
     <div ref={myRef} className={`${ myElementIsVisible ? 'max-w-[1040px] m-auto md:pl-20 p-4 py-16 fadeLoad' : 'max-w-[1040px] m-auto md:pl-20 p-4 py-16 opacity-0'} `}>
         <h1 id='blurb' className='text-4xl font-bold text-center text-[#001b5e]' >
-          Blurb
+          About Me
         </h1>
         <div className='flex' >
           <img className='hidden md:block rounded-full mr-3 shadow-2xl object-cover w-full h-full' src={portrait} alt="" />
