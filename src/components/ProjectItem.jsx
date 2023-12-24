@@ -14,11 +14,11 @@ const ProjectItem = ({img, title, tech, link, g_link}) => {
             <p className='lg:my-20 p-2 bg-gradient-to-l from-sky-800 to-emerald-500 rounded-md text-white text-center text-xs' >
                 {tech}
             </p>
-            <a  className='' target="_blank" href={link}>
+            {/* <a  className='' target="_blank" href={link}>
                 <p className='bg-blue-800 rounded-3xl text-center p-2 m-2 text-white cursor-pointer text-xs  hover:scale-[120%] ease-in duration-200' >
                     Click Here for Website
                 </p>
-            </a>
+            </a> */}
             <a target="_blank" href={g_link}>
                 <p className='bg-blue-800 rounded-3xl text-center p-2 m-2 text-white cursor-pointer text-xs  hover:scale-[120%] ease-in duration-200 ' >
                     Click Here for GitHub Repo
